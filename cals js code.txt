@@ -1,0 +1,49 @@
+
+function add() {
+var n1=document.getElementById('num1').value;
+var n2=document.getElementById('num2').value;
+var add=parseInt(n1)+parseInt(n2);
+alert("The addition is:"+add);
+
+}
+
+function sub() {
+  var a=document.getElementById('num1').value;
+  var b=document.getElementById('num2').value;
+  var sub=a-b;
+alert("The subtraction is:"+sub);
+}
+function mul() {
+
+  var a=document.getElementById('num1').value;
+  var b=document.getElementById('num2').value;
+  var mul=a*b;
+  alert("The mul is:"+mul);
+
+}
+function div() {
+  var a=document.getElementById('num1').value;
+  var b=document.getElementById('num2').value;
+  var div=a/b;
+  alert("The division is:"+div);
+}
+function mod() {
+  var a=document.getElementById('num1').value;
+  var b=document.getElementById('num2').value;
+  var mod=a%b;
+  alert("The modulus is:"+mod);
+}
+function square() {
+  var a=document.getElementById('num1').value;
+  var b=document.getElementById('num2').value;
+  var squ=a**b;
+  alert("The square is:"+squ);
+}
+function root() {
+  var a=document.getElementById('num1').value;
+    var b=document.getElementById('num2').value;
+  var root=Math.sqrt(a);
+  var root1=Math.sqrt(b);
+  alert("Square root a is:"+root);
+  alert("Square root b is:"+root1);
+}

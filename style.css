@@ -1,0 +1,9 @@
+.bg{
+  background-color: #000000;
+  color: #55ffff;
+}
+h1{
+border: 2px solid #55ffff;
+border-width: 10px;
+border-right-width: 720px;
+}
